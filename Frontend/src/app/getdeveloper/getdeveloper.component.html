@@ -1,0 +1,34 @@
+
+<div class="table">
+  <nav>
+    <a routerLink="/home" class="home">Home</a>
+  </nav>
+  <h2 style="text-align: center;color: aliceblue;">Developer Details</h2>
+    <button class="btn btn-warning" routerLink="/userside">ADD Developer</button>
+<table class="table table-success table-striped-columns">
+    
+    <thead>
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Name</th>
+          <th scope="col">Role</th>
+          <th scope="col">Phone</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr *ngFor="let emp of employee">
+          <td> {{emp.id}}</td>
+          <td>{{emp.name}}</td>
+          <td>{{emp.role}}</td>
+          <td>{{emp.phone}}</td>
+          <td> <button class="btn btn-primary" routerLink="/employee/{{emp.id}}">Edit</button>
+            <button (click)="deleteEmployee(emp.id)" class="btn btn-danger">Remove</button>
+         
+        </td>
+        </tr>
+      </tbody>
+  </table>
+
+</div>

@@ -1,0 +1,19 @@
+.text{
+    color: white;
+}
+h1{
+    color: rgb(16, 219, 255);
+}
+h2{
+    color: rgb(220, 19, 255);
+}
+h4{
+    color: rgb(35, 255, 19);
+}
+.img{
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.img1{
+    border-radius: 10px;
+}

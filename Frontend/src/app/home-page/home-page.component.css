@@ -1,0 +1,129 @@
+.navbar {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar a {
+    margin-left: 20px;
+    font-size: 20px; /* Adjust font size as needed */
+   
+  }
+  .nav .navbar-brand {
+   
+    font-weight: bold; /* Make the brand bold if desired */
+  }
+.contact{ margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+.contact:hover{
+    color: rgb(255, 30, 244);
+    text-decoration: underline;
+}
+.login{
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+.login:hover{
+    color: rgb(255, 30, 244);
+    text-decoration: underline;
+}
+.banner{
+    height: 400px;
+    width: 100%;
+}
+@keyframes colorChange {
+    0% { color: rgb(228, 255, 77); }
+    25% { color: rgb(78, 226, 249); }
+    50% { color: rgb(250, 88, 236); }
+    75% { color: rgb(67, 255, 61); }
+    100% { color: rgb(255, 107, 107); }
+  }
+  
+  /* Apply animation to the text */
+  .freelancer {
+    animation: colorChange 5s infinite;
+  }
+.image1 img {
+    margin-top: 10px;
+    width: 700px; 
+    height: 500px; 
+}
+
+.data1{
+    margin-right: 20px;
+    width: auto;
+    color: white;
+}
+.data1 span{
+    color: aqua;
+}
+.condent{
+    margin-top: 10px;
+    color: rgb(244, 30, 255);
+}
+.question{
+    margin-top: 20px;
+    color: rgb(108, 253, 56);
+}
+.detail{
+    margin-top: 10px;
+}
+.image2 img {
+    margin-top: 20px;
+    width: 700px; 
+    height: 500px; 
+}
+
+.data2{
+    margin-left: 20px;
+    width: auto;
+    color: white;
+}
+.data2 span{
+    color: aqua;
+}
+.condent1{
+    margin-top: 20px;
+    color: rgb(244, 30, 255);
+}
+.detail1{
+  margin-top: 20px;
+}
+.heading{
+    padding: 30px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+.footer1{
+    height: 100px;
+    margin: 0%;
+    padding: 0%;
+}
+.footer{ 
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.mail{
+   color: white;
+   background-color: rgb(43, 0, 184);
+   border-radius: 10px;
+   padding: 10px;
+   text-decoration: none;
+}
+.det{
+    color: white;
+    background-color: rgb(43, 0, 184);
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+.care{
+    margin-bottom: 20px;
+}

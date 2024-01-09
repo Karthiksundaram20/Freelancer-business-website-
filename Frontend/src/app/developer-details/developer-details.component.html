@@ -1,0 +1,30 @@
+<nav class="nav"><a routerLink="/home" class="home">Home</a></nav>
+
+  
+
+
+
+<div>
+  <h2 style="text-align: center;color: white;">Developer Details</h2>
+<table class="table table-success table-striped-columns">
+    
+    <thead>
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Name</th>
+          <th scope="col">Role</th>
+          <th scope="col">Phone</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr *ngFor="let emp of employee">
+          <td> {{emp.id}}</td>
+          <td>{{emp.name}}</td>
+          <td>{{emp.role}}</td>
+          <td>{{emp.phone}}</td>
+        </tr>
+      </tbody>
+  </table>
+
+</div>

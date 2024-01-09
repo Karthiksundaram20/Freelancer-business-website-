@@ -1,0 +1,17 @@
+<div class="body">
+    <div class="container">
+        <div class="controller">
+            <form class="form" (ngSubmit)="submitForm()">
+                <h2>Register</h2>
+                <label for="inputUsername" class="form-label">Username</label>
+                <input class="form-control" type="text" id="inputUsername" placeholder="username" formControlName="name">
+                <label for="inputUsername" class="form-label">Email</label>
+                <input class="form-control" type="email" id="inputUsername" placeholder="email" formControlName="email">
+                <label for="inputPassword" class="form-label">Password</label>
+                <input type="password" id="inputPassword" class="form-control" aria-describedby="passwordHelpBlock" formControlName="password" placeholder="password">
+                <label class="form-label">Confirmed Password</label>
+                <input type="password" class="form-control" formControlName="confirmedpassword" >
+                <button type="submit" class="btn btn-success" routerLink="/login" (click)="registration()">SignUp</button>
+            </form>
+        </div>
+    </div></div>
